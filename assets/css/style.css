@@ -1659,6 +1659,18 @@ section {
   }
 }
 
+@media (max-width: 575px) {
+  .contact-google-form{
+    height: 350px;
+  }
+}
+
+@media (max-width: 914px) {
+  .contact-google-form{
+    height: 350px;
+  }
+}
+
 /*--------------------------------------------------------------
 
 # Breadcrumbs
