@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 # Preloader
 
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 
@@ -1167,7 +1167,7 @@ section {
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 900px;
   border-radius: 50%;
 }
 
@@ -1180,7 +1180,7 @@ section {
 }
 
 .team .member .member-info {
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .team .member h4 {
@@ -1491,7 +1491,7 @@ section {
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  /* padding: 0 0 0 60px; */
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -1499,7 +1499,7 @@ section {
 }
 
 .contact .info p {
-  padding: 0 0 10px 60px;
+  /* padding: 0 0 10px 60px; */
   margin-bottom: 20px;
   font-size: 14px;
   color: #6182ba;
@@ -1510,7 +1510,7 @@ section {
 }
 
 .contact .info .social-links {
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .contact .info .social-links a {
@@ -1656,6 +1656,18 @@ section {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-google-form{
+    height: 350px;
+  }
+}
+
+@media (max-width: 914px) {
+  .contact-google-form{
+    height: 350px;
   }
 }
 

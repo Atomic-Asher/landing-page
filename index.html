@@ -86,10 +86,12 @@
             </li>
             <!--  <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>-->
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="https://blog.atomicasher.com" target="_blank">Blog</a></li>
 
-            <li>
-              <a href="http://blog.atomicasher.com">Blog</a>
-            </li>
+            <!-- <li>
+              <a class="nav-link scrollto" href="#contact_section">Contact</a>
+            </li> -->
+
             <li>
               <a class="getstarted scrollto" href="#contact_section">Get in touch</a>
             </li>
@@ -126,7 +128,7 @@
               ml4.scaleOut = 3;
               ml4.durationIn = 800;
               ml4.durationOut = 600;
-              ml4.delay = 500;
+              ml4.delay = 5000;
 
               anime
                 .timeline({ loop: true })
@@ -185,10 +187,10 @@
               convention
             </h2>
 
-            <div class="d-flex justify-content-center justify-content-lg-start">
+            <!-- <div class="d-flex justify-content-center justify-content-lg-start">
               <a class="btn-get-started scrollto" href="#about">Get Started</a>
-              <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-            </div>
+            </div> -->
+
           </div>
 
           <div
@@ -418,7 +420,7 @@
                     loop=""
                     speed="1"
                     src="https://assets8.lottiefiles.com/packages/lf20_5p8s20tk.json"
-                    style="width: fit-content; height: fit-content"
+                    style="width: 350px; height: 350px"
                   ></lottie-player>
                 </div>
               </div>
@@ -436,12 +438,14 @@
             <div class="row">
               <!--Lottie player-->
               <lottie-player
-                class=""
-                id="firstLottie"
-                src="https://assets1.lottiefiles.com/packages/lf20_hbl5xthi.json"
-                style="width: 400px; height: 400px"
-                >&quot;&gt;</lottie-player
-              >
+              autoplay=""
+              background="transparent"
+              loop=""
+              speed="1.5"
+              src="https://assets2.lottiefiles.com/packages/lf20_clujqcpl.json"
+              style="width: 350px; height: 350px"
+            ></lottie-player>
+              
               <script>
                 LottieInteractivity.create({
                   mode: "scroll",
@@ -507,13 +511,18 @@
 
                 <br />
 
+
+              </div>
+
+              <div class="col">
                 <div class="row">
                   <div
                     class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
                     data-aos="zoom-in"
                     data-aos-delay="300"
-                    style="width: auto"
+                    style="width: auto; padding-top: 10px;"
                   >
+                  
                     <div class="icon-box">
                       <div class="icon"></div>
 
@@ -552,7 +561,9 @@
                   </div>
                 </div>
               </div>
+
             </div>
+
           </div>
         </section>
         <!-- End Services Section --><!-- ======= Cta Section ======= -->
@@ -573,6 +584,7 @@
                 <a
                   class="cta-btn align-middle"
                   href="https://atomicasher.com/assets/test-whitepaper.pdf"
+                  target="_blank"
                   >Let&#39;s have a read then</a
                 >
               </div>
@@ -635,6 +647,7 @@
                       alt=""
                       class="img-fluid"
                       src="assets/img/team/team-2.jpg"
+                      style="width: 800px;"
                     />
                   </div>
 
@@ -698,12 +711,15 @@
       <div
         class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch"
       >
-        <script
+
+      <iframe class="contact-google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScqOBWU5YybCjfe8Xo9fDAMnhbTMYj-Bxm1UfJ5BC6nA2rYAA/viewform?embedded=true" width="640px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+        <!-- <script
           class="col"
           async
           data-uid="7b6df2cd81"
           src="https://atomic-asher.ck.page/7b6df2cd81/index.js"
-        ></script>
+        ></script> -->
       </div>
     </div>
   </div>
@@ -775,6 +791,9 @@
                           color: rgb(0, 0, 0);
                           border-radius: 4px;
                           font-weight: 400;
+                          width: 100%;
+                          display: flex;
+                          margin: auto;
                         "
                       />
                     </div>
@@ -1475,6 +1494,19 @@
                   target="_blank"
                   ><i class="ri-linkedin-box-fill" style="font-size: 30px"></i
                 ></a>
+
+                <a
+                href="https://blog.atomicasher.com"
+                target="_blank"
+                ><i class="ri-book-3-fill" style="font-size: 30px"></i
+              ></a>
+
+                <a
+                href="https://github.com/Atomic-Asher"
+                target="_blank"
+                ><i class="ri-github-fill" style="font-size: 30px"></i
+              ></a>
+
               </div>
 
               <div class="social-links mt-3"></div>
